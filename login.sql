@@ -1,5 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `login` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `login`;
 -- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: login
@@ -39,7 +37,7 @@ CREATE TABLE `login_information` (
 
 LOCK TABLES `login_information` WRITE;
 /*!40000 ALTER TABLE `login_information` DISABLE KEYS */;
-INSERT INTO `login_information` VALUES (254934,'swe2018','Armando','Alvear'),(4394520,'8102ews','John','Doe');
+INSERT INTO `login_information` VALUES (123456,'654321','Sebastian','Gawenda'),(254934,'swe2018','Armando','Alvear'),(654321,'123456','Carlos','Hevia'),(4394520,'8102ews','John','Doe');
 /*!40000 ALTER TABLE `login_information` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-18 21:53:56
+-- Dump completed on 2018-04-26 11:03:39
